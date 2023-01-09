@@ -1,0 +1,1505 @@
+02:42:19.913 [main]  INFO  com.intuit.karate - Karate version: 1.4.0.RC3
+02:51:27.944 [main]  INFO  com.intuit.karate - Karate version: 1.4.0.RC3
+02:51:28.021 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1673250688016
+02:57:42.973 [main]  INFO  com.intuit.karate - Karate version: 1.4.0.RC3
+02:58:45.205 [main]  INFO  com.intuit.karate - Karate version: 1.4.0.RC3
+03:06:35.663 [main]  INFO  com.intuit.karate - Karate version: 1.3.0
+03:07:24.523 [main]  INFO  com.intuit.karate - Karate version: 1.3.0
+03:09:07.212 [main]  INFO  com.intuit.karate - Karate version: 1.3.0
+03:09:36.772 [main]  INFO  com.intuit.karate - Karate version: 1.3.0
+03:13:05.148 [main]  INFO  com.intuit.karate - Karate version: 1.3.0
+03:15:07.474 [main]  INFO  com.intuit.karate - Karate version: 1.3.0
+03:15:07.523 [main]  INFO  com.intuit.karate.Runner - using system property 'karate.config.dir': karate
+03:15:07.562 [main]  DEBUG com.intuit.karate.Suite - [config] karate/karate-config.js
+03:15:07.563 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1673252107563
+03:15:07.923 [main]  ERROR com.intuit.karate - karate/apitest.feature:4
+* url 'localhost:3000'
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+03:15:07.923 [main]  ERROR com.intuit.karate - karate/apitest.feature:5
+* method get
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+03:15:07.924 [main]  ERROR com.intuit.karate - karate/apitest.feature:6
+* status 200
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+karate/apitest.feature:6
+03:15:07.924 [main]  ERROR com.intuit.karate - karate/apitest.feature:7
+* match response contains { json: { foo: 'bar' } }
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+karate/apitest.feature:6
+karate/apitest.feature:7
+03:15:08.255 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) karate/apitest.feature
+03:17:23.486 [main]  INFO  com.intuit.karate - Karate version: 1.3.0
+03:17:23.537 [main]  INFO  com.intuit.karate.Runner - using system property 'karate.config.dir': karate
+03:17:23.573 [main]  DEBUG com.intuit.karate.Suite - [config] karate/karate-config.js
+03:17:23.574 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1673252243574
+03:17:23.938 [main]  ERROR com.intuit.karate - karate/apitest.feature:4
+* url 'localhost:3000'
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+03:17:23.938 [main]  ERROR com.intuit.karate - karate/apitest.feature:5
+* method get
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+03:17:23.938 [main]  ERROR com.intuit.karate - karate/apitest.feature:6
+* status 200
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+karate/apitest.feature:6
+03:17:23.938 [main]  ERROR com.intuit.karate - karate/apitest.feature:7
+* match response contains { json: { foo: 'bar' } }
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+karate/apitest.feature:6
+karate/apitest.feature:7
+03:17:24.259 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) karate/apitest.feature
+03:21:05.299 [main]  INFO  com.intuit.karate - Karate version: 1.3.0
+03:21:05.348 [main]  INFO  com.intuit.karate.Runner - using system property 'karate.config.dir': karate
+03:21:05.383 [main]  DEBUG com.intuit.karate.Suite - [config] karate/karate-config.js
+03:21:05.383 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1673252465383
+03:21:05.693 [main]  ERROR com.intuit.karate - karate/apitest.feature:4
+* url 'localhost:3000'
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+03:21:05.693 [main]  ERROR com.intuit.karate - karate/apitest.feature:5
+* method get
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+03:21:05.693 [main]  ERROR com.intuit.karate - karate/apitest.feature:6
+* status 200
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+karate/apitest.feature:6
+03:21:05.693 [main]  ERROR com.intuit.karate - karate/apitest.feature:7
+* match response contains { json: { foo: 'bar' } }
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+karate/apitest.feature:6
+karate/apitest.feature:7
+03:21:05.986 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) karate/apitest.feature
+03:22:53.483 [main]  INFO  com.intuit.karate - Karate version: 1.3.0
+03:22:53.533 [main]  INFO  com.intuit.karate.Runner - using system property 'karate.config.dir': karate
+03:22:53.562 [main]  DEBUG com.intuit.karate.Suite - [config] karate/karate-config.js
+03:22:53.563 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1673252573562
+03:22:53.855 [main]  ERROR com.intuit.karate - karate/apitest.feature:4
+* url 'https://httpbin.org'
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+03:22:53.855 [main]  ERROR com.intuit.karate - karate/apitest.feature:5
+* path 'anything'
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+03:22:53.855 [main]  ERROR com.intuit.karate - karate/apitest.feature:6
+* request { foo: 'bar' }
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+karate/apitest.feature:6
+03:22:53.855 [main]  ERROR com.intuit.karate - karate/apitest.feature:7
+* method post
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+karate/apitest.feature:6
+karate/apitest.feature:7
+03:22:53.855 [main]  ERROR com.intuit.karate - karate/apitest.feature:8
+* status 200
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+karate/apitest.feature:6
+karate/apitest.feature:7
+karate/apitest.feature:8
+03:22:53.855 [main]  ERROR com.intuit.karate - karate/apitest.feature:9
+* match response contains { json: { foo: 'bar' } }
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+karate/apitest.feature:6
+karate/apitest.feature:7
+karate/apitest.feature:8
+karate/apitest.feature:9
+03:22:54.147 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) karate/apitest.feature
+03:24:46.650 [main]  INFO  com.intuit.karate - Karate version: 1.3.0
+03:24:46.694 [main]  INFO  com.intuit.karate.Runner - using system property 'karate.config.dir': karate
+03:24:46.727 [main]  DEBUG com.intuit.karate.Suite - [config] karate/karate-config.js
+03:24:46.727 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1673252686727
+03:24:46.972 [main]  ERROR com.intuit.karate - karate/apitest.feature:4
+* url 'https://httpbin.org'
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+03:24:46.972 [main]  ERROR com.intuit.karate - karate/apitest.feature:5
+* path 'anything'
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+03:24:46.972 [main]  ERROR com.intuit.karate - karate/apitest.feature:6
+* request { foo: 'bar' }
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+karate/apitest.feature:6
+03:24:46.972 [main]  ERROR com.intuit.karate - karate/apitest.feature:7
+* method post
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+karate/apitest.feature:6
+karate/apitest.feature:7
+03:24:46.972 [main]  ERROR com.intuit.karate - karate/apitest.feature:8
+* status 200
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+karate/apitest.feature:6
+karate/apitest.feature:7
+karate/apitest.feature:8
+03:24:46.973 [main]  ERROR com.intuit.karate - karate/apitest.feature:9
+* match response contains { json: { foo: 'bar' } }
+>> karate/apitest.feature:3
+>> karate-config.js failed
+>> js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+js failed:
+>>>>
+01: function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s
+<<<<
+com.intuit.karate.KarateException: js failed:
+>>>>
+01: (function fn() {
+02:     karate.log('*** in karate-config.js');
+03:   }s)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:3:3 Expected ) but found s
+  }s)
+   ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+
+- com.intuit.karate.graal.JsEngine.fromJsEvalException(JsEngine.java:224)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1192)
+- com.intuit.karate.core.ScenarioRuntime.evalConfigJs(ScenarioRuntime.java:284)
+- com.intuit.karate.core.ScenarioRuntime.beforeRun(ScenarioRuntime.java:360)
+- com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:379)
+- com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:196)
+- java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+
+karate/apitest.feature:4
+karate/apitest.feature:5
+karate/apitest.feature:6
+karate/apitest.feature:7
+karate/apitest.feature:8
+karate/apitest.feature:9
+03:24:47.233 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) karate/apitest.feature
+03:31:04.328 [main]  INFO  com.intuit.karate - Karate version: 1.3.0
+03:31:04.377 [main]  INFO  com.intuit.karate.Runner - using system property 'karate.config.dir': karate
+03:31:04.416 [main]  DEBUG com.intuit.karate.Suite - [config] karate/karate-config.js
+03:31:04.417 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1673253064417
+03:31:04.802 [main]  INFO  com.intuit.karate - *** in karate-config.js 
+03:31:04.962 [main]  DEBUG com.intuit.karate - request:
+1 > POST https://httpbin.org/anything
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 13
+1 > Host: httpbin.org
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"foo":"bar"}
+
+03:31:05.425 [main]  DEBUG com.intuit.karate - response time in milliseconds: 461
+1 < 200
+1 < Date: Mon, 09 Jan 2023 08:31:05 GMT
+1 < Content-Type: application/json
+1 < Content-Length: 508
+1 < Connection: keep-alive
+1 < Server: gunicorn/19.9.0
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Credentials: true
+{
+  "args": {}, 
+  "data": "{\"foo\":\"bar\"}", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Accept-Encoding": "gzip,deflate", 
+    "Content-Length": "13", 
+    "Content-Type": "application/json; charset=UTF-8", 
+    "Host": "httpbin.org", 
+    "User-Agent": "Apache-HttpClient/4.5.13 (Java/18.0.2)", 
+    "X-Amzn-Trace-Id": "Root=1-63bbd0c9-7b047e2b5fbc31f215cba1e2"
+  }, 
+  "json": {
+    "foo": "bar"
+  }, 
+  "method": "POST", 
+  "origin": "76.17.126.72", 
+  "url": "https://httpbin.org/anything"
+}
+
+
+03:31:05.731 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) karate/apitest.feature
+03:33:47.583 [main]  INFO  com.intuit.karate - Karate version: 1.3.0
+03:33:47.627 [main]  INFO  com.intuit.karate.Runner - using system property 'karate.config.dir': karate
+03:33:47.660 [main]  DEBUG com.intuit.karate.Suite - [config] karate/karate-config.js
+03:33:47.660 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1673253227660
+03:33:47.928 [main]  INFO  com.intuit.karate - *** in karate-config.js 
+03:33:48.020 [main]  ERROR com.intuit.karate - karate.org.apache.http.client.ClientProtocolException: URI does not specify a valid host name: localhost:3000, http call failed after 83 milliseconds for url: localhost:3000
+03:33:48.021 [main]  ERROR com.intuit.karate - karate/apitest.feature:7
+* method get
+http call failed after 83 milliseconds for url: localhost:3000
+karate/apitest.feature:7
+03:33:48.269 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) karate/apitest.feature
+03:34:27.319 [main]  INFO  com.intuit.karate - Karate version: 1.3.0
+03:34:27.363 [main]  INFO  com.intuit.karate.Runner - using system property 'karate.config.dir': karate
+03:34:27.395 [main]  DEBUG com.intuit.karate.Suite - [config] karate/karate-config.js
+03:34:27.396 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1673253267396
+03:34:27.659 [main]  INFO  com.intuit.karate - *** in karate-config.js 
+03:34:27.750 [main]  DEBUG com.intuit.karate - request:
+1 > GET https://localhost:3000
+1 > Host: localhost:3000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:34:27.792 [main]  ERROR com.intuit.karate - javax.net.ssl.SSLException: Unsupported or unrecognized SSL message, http call failed after 124 milliseconds for url: https://localhost:3000
+03:34:27.792 [main]  ERROR com.intuit.karate - karate/apitest.feature:7
+* method get
+http call failed after 124 milliseconds for url: https://localhost:3000
+karate/apitest.feature:7
+03:34:28.055 [main]  INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) karate/apitest.feature
+03:35:12.376 [main]  INFO  com.intuit.karate - Karate version: 1.3.0
+03:35:12.422 [main]  INFO  com.intuit.karate.Runner - using system property 'karate.config.dir': karate
+03:35:12.455 [main]  DEBUG com.intuit.karate.Suite - [config] karate/karate-config.js
+03:35:12.455 [main]  INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1673253312455
+03:35:12.723 [main]  INFO  com.intuit.karate - *** in karate-config.js 
+03:35:12.814 [main]  DEBUG com.intuit.karate - request:
+1 > GET http://localhost:3000
+1 > Host: localhost:3000
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+03:35:12.833 [main]  DEBUG com.intuit.karate - response time in milliseconds: 19
+1 < 200
+1 < X-Powered-By: Express
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 13
+1 < ETag: W/"d-pedE0BZFQNM7HX6mFsKPL6l+dUo"
+1 < Date: Mon, 09 Jan 2023 08:35:12 GMT
+1 < Connection: keep-alive
+1 < Keep-Alive: timeout=5
+{"foo":"bar"}
+
+03:35:13.097 [main]  INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) karate/apitest.feature
